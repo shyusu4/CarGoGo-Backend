@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: cargogo_backend_development
+  pool: 5
+  host: localhost
+  username: postgres
+
+development:
+  <<: *default
+  database: cargogo_backend_development
+
+test:
+  <<: *default
+  database: cargogo_backend_test
+
+production:
+  <<: *default
+  database: cargogo_backend_production
+  username: cargogo_backend
+  url: <%= ENV['DATABASE_URL'] %>
