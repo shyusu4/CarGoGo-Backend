@@ -18,7 +18,7 @@ class Api::V1::UsersController < ApplicationController
 
     def show
         render json: { user: @user, status: 201 }
-      end
+    end
 
     def create
         @user = User.new(user_params)
@@ -31,6 +31,16 @@ class Api::V1::UsersController < ApplicationController
         end
     end
 
+    def update
+        @updated_user = @user.update!(user_params)
+    
+        if @updated_user
+          render json: { data: @updated_user, message: 'user updated successfully!' }
+        else
+          render json: { error: @updated_user, status: 422 }
+        end
+    end
+
 
     def destroy
         @action = @user.destroy
@@ -40,7 +50,7 @@ class Api::V1::UsersController < ApplicationController
         else
           render json: { message: action.errors, status: :unprocessable_entity }
         end
-      end
+    end
     
       private
 
