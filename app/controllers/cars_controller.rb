@@ -1,5 +1,4 @@
 class CarsController < ApplicationController
-
   # GET /cars
   def index
     @cars = Car.all
@@ -24,20 +23,20 @@ class CarsController < ApplicationController
     end
   end
 
-
   # DELETE /cars/1
   def destroy
     @car.destroy
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_car
-      @car = Car.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def car_params
-      params.require(:car).permit(:model, :color, :description, :production_date, :brand, :image, :price)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_car
+    @car = Car.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def car_params
+    params.require(:car).permit(:model, :color, :description, :production_date, :brand, :image, :price)
+  end
 end
