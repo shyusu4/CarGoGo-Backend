@@ -24,6 +24,18 @@ class Api::V1::UsersController < ApplicationController
           render json: { error: @user.errors.full_messages, status: 402 }
         end
     end
+
+
+    def destroy
+        @action = @user.destroy
+    
+        if @action
+          render json: { message: 'User Deleted!' }
+        else
+          render json: { message: action.errors, status: :unprocessable_entity }
+        end
+      end
+    
     
     
 end
