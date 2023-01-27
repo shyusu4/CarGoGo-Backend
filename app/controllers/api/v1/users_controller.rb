@@ -1,4 +1,6 @@
 class Api::V1::UsersController < ApplicationController
+    before_action :set_user, only: %i[show update destroy]
+    before_action :set_current_user, only: %i[login]
 
     def index
         @users = User.all
@@ -36,6 +38,19 @@ class Api::V1::UsersController < ApplicationController
         end
       end
     
-    
+      private
+
+  # Only allow a list of trusted parameters through.
+  def user_params
+    params.require(:user).permit(:name, :username, :encrypted_password, :email)
+  end
+
+  def set_user
+    @user = User.find(params[:id])
+  end
+
+  def set_current_user
+    @current_user = User.where(username: params[:username])
+  end
     
 end
