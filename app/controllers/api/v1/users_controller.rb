@@ -13,5 +13,17 @@ class Api::V1::UsersController < ApplicationController
           render json: { error: "User with username: #{params[:username]} not found", status: 400 }
         end
     end
+
+    def create
+        @user = User.new(user_params)
+        @user.password = 'password'
+    
+        if @user.save
+          render json: { status: 201, message: 'user created successfully', data: @user }
+        else
+          render json: { error: @user.errors.full_messages, status: 402 }
+        end
+    end
+    
     
 end
