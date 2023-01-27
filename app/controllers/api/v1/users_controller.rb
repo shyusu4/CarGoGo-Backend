@@ -16,6 +16,10 @@ class Api::V1::UsersController < ApplicationController
         end
     end
 
+    def show
+        render json: { user: @user, status: 201 }
+      end
+
     def create
         @user = User.new(user_params)
         @user.password = 'password'
