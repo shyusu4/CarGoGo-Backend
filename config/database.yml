@@ -9,10 +9,14 @@ default: &default
 development:
   <<: *default
   database: cargogo_backend_development
+  username: postgres
+  password: admin
 
 test:
   <<: *default
   database: cargogo_backend_test
+  username: postgres
+  password: admin
 
 production:
   <<: *default
