@@ -4,5 +4,14 @@ class Api::V1::UsersController < ApplicationController
         @users = User.all
     
         render json: { status: 200, data: @users }
-      end
+    end
+
+    def login
+        if @current_user.length.positive?
+          render json: { user: @current_user, status: 201 }
+        else
+          render json: { error: "User with username: #{params[:username]} not found", status: 400 }
+        end
+    end
+    
 end
