@@ -1,6 +1,4 @@
 class Car < ApplicationRecord
-  belongs_to :favorite
-
   validates :model, presence: true
   validates :color, presence: true
   validates :description, presence: true
