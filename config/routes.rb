@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :cars
   get 'users/login', to: 'users#login'
-      resources :users
+    resources :users do
+      resources :favorites, only: [:index, :show, :create, :destroy]
+      end
     end
   end
 end
