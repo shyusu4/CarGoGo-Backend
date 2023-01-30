@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :cars
   get 'users/login', to: 'users#login'
       resources :users
     end
