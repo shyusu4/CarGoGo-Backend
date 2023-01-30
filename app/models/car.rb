@@ -1,5 +1,4 @@
 class Car < ApplicationRecord
-
   validates :model, presence: true
   validates :color, presence: true
   validates :description, presence: true
