@@ -68,6 +68,9 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 
 ## 💻 Website Mockup <a name="screenshots"></a>
 
+## Entity Relationship Diagram <a name="er-diagram"></a>
+<img width="850" alt="erd" src="https://user-images.githubusercontent.com/106587342/216285771-04b5a1ea-9c8f-421a-81ac-ac431dda98b8.png">
+
 <!-- Kanban Board -->
 <!-- API Docs -->
 <!-- ER DIAGRAM-->
@@ -118,25 +121,25 @@ rspec spec
 
 👤 **Shakhrizoda Yusupova**
 
-- GitHub: [shyusu4](https://github.com/shyusu4)
-- Twitter: [shyusu4](https://twitter.com/shyusu4)
+- GitHub: [@shyusu4](https://github.com/shyusu4)
+- Twitter: [@shyusu4](https://twitter.com/shyusu4)
 - LinkedIn: [Shakhrizoda Yusupova](https://www.linkedin.com/in/shyusu4)
 
 👤 **Riya Bulia**
 
-- GitHub: [RiyaBulia12](https://github.com/RiyaBulia12)
+- GitHub: [@RiyaBulia12](https://github.com/RiyaBulia12)
 - LinkedIn: [Riya Bulia](https://linkedin.com/in/riya-bulia)
 
 👤 **Olatunji Azeem Adebayo**
 
-- GitHub: [zemola](https://github.com/zemola)
-- Twitter: [zemolat](https://twitter.com/zemolat)
+- GitHub: [@zemola](https://github.com/zemola)
+- Twitter: [@zemolat](https://twitter.com/zemolat)
 - LinkedIn: [Olatunji Azeem](https://www.linkedin.com/in/olatunji-azeem)
 
 👤 **Rose Okpe**
 
-- GitHub: [Roseokpe](https://github.com/Roseokpe)
-- Twitter: [roseokpe](https://twitter.com/roseokpe)
+- GitHub: [@Roseokpe](https://github.com/Roseokpe)
+- Twitter: [@roseokpe](https://twitter.com/roseokpe)
 - LinkedIn: [Rose Okpe](https://www.linkedin.com/in/roseokpe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
