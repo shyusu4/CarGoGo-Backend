@@ -68,6 +68,9 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 
 ## 💻 Website Mockup <a name="screenshots"></a>
 
+## Entity Relationship Diagram <a name="er-diagram"></a>
+<img width="850" alt="erd" src="https://user-images.githubusercontent.com/106587342/216285771-04b5a1ea-9c8f-421a-81ac-ac431dda98b8.png">
+
 <!-- Kanban Board -->
 <!-- API Docs -->
 <!-- ER DIAGRAM-->
@@ -75,6 +78,10 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo]()
+
+## [API Documentation](https://cargogo-backend-production.up.railway.app/api-docs/index.html) <a name="api-documentation"></a>
+![Screenshot (130)](https://user-images.githubusercontent.com/106587342/216286943-ce558cc8-2bae-4ddf-be52-5db3406b3cf3.png)
+![Screenshot (131)](https://user-images.githubusercontent.com/106587342/216287328-19f5fdf1-8569-4f65-a0f6-447f4a23b7d9.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,25 +125,25 @@ rspec spec
 
 👤 **Shakhrizoda Yusupova**
 
-- GitHub: [shyusu4](https://github.com/shyusu4)
-- Twitter: [shyusu4](https://twitter.com/shyusu4)
+- GitHub: [@shyusu4](https://github.com/shyusu4)
+- Twitter: [@shyusu4](https://twitter.com/shyusu4)
 - LinkedIn: [Shakhrizoda Yusupova](https://www.linkedin.com/in/shyusu4)
 
 👤 **Riya Bulia**
 
-- GitHub: [RiyaBulia12](https://github.com/RiyaBulia12)
+- GitHub: [@RiyaBulia12](https://github.com/RiyaBulia12)
 - LinkedIn: [Riya Bulia](https://linkedin.com/in/riya-bulia)
 
 👤 **Olatunji Azeem Adebayo**
 
-- GitHub: [zemola](https://github.com/zemola)
-- Twitter: [zemolat](https://twitter.com/zemolat)
+- GitHub: [@zemola](https://github.com/zemola)
+- Twitter: [@zemolat](https://twitter.com/zemolat)
 - LinkedIn: [Olatunji Azeem](https://www.linkedin.com/in/olatunji-azeem)
 
 👤 **Rose Okpe**
 
-- GitHub: [Roseokpe](https://github.com/Roseokpe)
-- Twitter: [roseokpe](https://twitter.com/roseokpe)
+- GitHub: [@Roseokpe](https://github.com/Roseokpe)
+- Twitter: [@roseokpe](https://twitter.com/roseokpe)
 - LinkedIn: [Rose Okpe](https://www.linkedin.com/in/roseokpe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
