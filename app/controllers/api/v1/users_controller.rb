@@ -9,8 +9,7 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def login
-    login_params = params.permit(:username, :password)
-    @user =User.find_by(user_params)
+    @user = User.find_by(user_params)
     if @user && @user.username == params[:username]
       render json: { status: 200, data: @user }
     else
