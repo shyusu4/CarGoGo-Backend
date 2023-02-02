@@ -32,7 +32,6 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 
 - [Frontend](https://github.com/RiyaBulia12/Cargogo-front-end)<a name="react-frontend"></a>
 - [Kanban Board](https://github.com/users/RiyaBulia12/projects/8/views/1)<a name="kanban-board"></a>
-- [API Documentation]()<a name="api-docs"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,7 +71,6 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 <!-- Kanban Board -->
 <!-- API Docs -->
 <!-- ER DIAGRAM-->
-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
