@@ -9,8 +9,16 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def login
-    if @current_user.length.positive?
-      render json: { user: @current_user, status: 201 }
+    # if @current_user.length.positive?
+    #   render json: { user: @current_user, status: 201 }
+    # else
+    #   render json: { error: "User with username: #{params[:username]} not found", status: 400 }
+    # end
+
+    login_params = params.permit(:username, :password)
+    @user = User.find_by(username: login_params[:username])
+    if @user && @user.password(login_params[:password])
+      render json: { status: 200, data: @user }
     else
       render json: { error: "User with username: #{params[:username]} not found", status: 400 }
     end
@@ -22,7 +30,7 @@ class Api::V1::UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-    @user.password = 'password'
+    # @user.password = 'password'
 
     if @user.save
       render json: { status: 201, message: 'user created successfully', data: @user }
@@ -63,6 +71,6 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def set_current_user
-    @current_user = User.where(username: params[:username])
+    @current_user = User.where(username: params[:username] password: params[:password])
   end
 end
