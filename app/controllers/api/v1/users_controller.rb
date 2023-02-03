@@ -9,8 +9,9 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def login
-    if @current_user.length.positive?
-      render json: { user: @current_user, status: 201 }
+    @user = User.find_by(user_params)
+    if @user && @user.username == params[:username]
+      render json: { status: 200, data: @user }
     else
       render json: { error: "User with username: #{params[:username]} not found", status: 400 }
     end
@@ -63,6 +64,6 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def set_current_user
-    @current_user = User.where(username: params[:username])
+    @current_user = User.where(username: params[:username], password: params[:password])
   end
 end
