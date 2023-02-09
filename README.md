@@ -10,7 +10,7 @@
   - [React Frontend](#react-frontend)
   - [API Documentation](#api-docs)
   - [🚀 Live Demo](#live-demo)
-  
+
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -177,6 +177,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
