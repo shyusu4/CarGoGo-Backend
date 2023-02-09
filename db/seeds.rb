@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-User.create!(
+User.create(
   [{name: 'Leo', email: 'leolevkowitz@gmail.com', username: 'Leo Levkowitz', password: 'e2Rfw322##', password_confirmation: 'e2Rfw322##'},
   {name: 'Rafael', email: 'rafael12@yahoo.com', username: 'Rafael Martin', password: 'gh11WQ32@!', password_confirmation: 'gh11WQ32@!'}])
 
-Car.create!(
+Car.create(
   [
     {model: 'Audi', color: 'Black', description: 'Audi A4', brand: 'Audi', image: 'https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80', price: 10000},
     {model: 'BMW', color: 'White', description: 'BMW 3', brand: 'BMW', image: 'https://images.unsplash.com/photo-1570356528233-b442cf2de345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1066&q=80', price: 20000},
@@ -29,7 +29,7 @@ Car.create!(
   ]
 )
 
-Favorite.create!(
+Favorite.create(
   [{user_id: 1, car_id: 1},
   {user_id: 1, car_id: 2},
   {user_id: 1, car_id: 3},
