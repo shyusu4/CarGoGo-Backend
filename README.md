@@ -77,7 +77,8 @@ CarGoGo is a car rental website that provides customers with an easy and conveni
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://frabjous-profiterole-723fe2.netlify.app/)
+- [Api Endpoint](https://cargogo-backend-production.up.railway.app/api/v1/cars)
 
 ## [API Documentation](https://cargogo-backend-production.up.railway.app/api-docs/index.html) <a name="api-documentation"></a>
 ![Screenshot (130)](https://user-images.githubusercontent.com/106587342/216286943-ce558cc8-2bae-4ddf-be52-5db3406b3cf3.png)
